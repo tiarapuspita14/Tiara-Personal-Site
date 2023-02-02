@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Tiara-Personal-Site/precache-manifest.ba83af673d38614e135d4ff37f4feb85.js"
+  "/tiarapuspita14/Tiara-Personal-Site/precache-manifest.0819b984bdc941dfa0bfb8f98ab9ba76.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Tiara-Personal-Site/index.html", {
+workbox.routing.registerNavigationRoute("/tiarapuspita14/Tiara-Personal-Site/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

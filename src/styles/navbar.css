@@ -1,0 +1,99 @@
+.navigation {
+    display: flex;
+    background-color: rgba(15, 34, 63, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0px 60px;
+    position: relative;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style: none;
+    z-index: 3;
+    position: fixed;
+}
+.navigation .kanan{
+    display: flex;
+    gap: 15px;
+}
+.navigation ul li, a{
+    list-style: none;
+    color: #d9d9d9;
+}
+.navigation .kiri .toggle{
+    display: none;
+}
+.navigation ul li, a:hover{
+    color: #64FFDA;
+}
+/* mobile nav */
+
+@media (max-width: 600px) {
+
+     .navigation{
+        display: block;
+        position: relative;
+        background-color: rgba(15, 34, 63, 0.3);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(5px);
+        padding: 0 40px;
+        height: fit-content;
+        padding-top: 20px;
+        transition: 0.5s ease-in-out;
+        position: fixed;
+        
+    }
+    .navigation .kiri{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        gap: 10rem;
+    }
+
+    .navigation .kiri .toggle{
+        color: #d9d9d9;
+        display: block;
+        padding-top: 3px;
+        cursor: pointer;
+    }
+    .navigation .kiri .toggle:hover{
+        color: #64FFDA;
+    }
+    .navigation .kiri .logo{
+        color: #d9d9d9;
+        display: block;
+        width: 10rem;
+
+    }
+    .navigation .kanan {
+       text-align: center;
+       display: block;
+       display: none;
+    }
+    .kanan.active{
+        display: block;
+    }
+    .navigation li .hide{
+        display: none;
+    }
+    .navigation .kanan li {
+        padding-bottom: 15px;
+     }
+    .navigation ul li a{
+        color: #d9d9d9;
+    }
+    .navigation ul li a:hover{
+        color: #64FFDA;
+    }
+
+    .hide{
+        display: none;
+        transition: 0.3s ease-out;
+    } 
+
+}

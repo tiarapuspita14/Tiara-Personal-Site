@@ -1,0 +1,118 @@
+
+.footer{
+    padding: 120px 100px 0px 100px;
+}
+
+.footer .header span{
+    font-size: 50px;
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer .body{
+    display: block;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footer .body .teks{
+    display: block;
+    margin: auto;
+    max-height: 6rem;
+    max-width: 40rem;
+    font-size: 14px;
+    line-height: 27px;
+}
+.footer .body .button{
+    padding-top: 60px;
+    display: block;
+}
+.footer .body .button a{
+    border: 1px solid  #64FFDA;
+    color: #64FFDA;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.footer .body .button a:hover{
+    background: #64FFDA;
+    color: rgb(15, 34, 63);
+}
+
+.footer .socials{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+   
+}
+.footer .socials a{
+    font-size: 25px;
+    margin-top: 120px;
+}
+.all{
+    padding-top: 3.5rem;
+}
+.form{
+    display: block;
+    text-align: center;
+}
+ .form-head span{
+    font-size: 30px;
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #64FFDA;
+}
+.form input[type=text], select, textarea {
+    width: 60%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    resize: vertical;
+    background-color: #f2f2f2;
+  }
+.submit{
+    border: 1px solid  #64FFDA;
+    color: #64FFDA;
+    background: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+}
+.submit:hover{
+    background:  #64FFDA;
+    color:   #0A192F;
+    cursor: pointer;
+}
+.alert{
+    font-size: 14px;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: #64FFDA;
+    gap: 5px;
+    display: flex;
+    display: none;
+}
+@media (max-width: 600px){
+    .footer{
+        padding: 100px 40px 40px 40px;
+    }
+    .footer .body .button{
+        margin-top: 60px;
+    }
+    .footer .socials a{
+        margin-top: 100px;
+    }
+    .footer .header span{
+        font-size: 40px;
+    }
+    
+}
